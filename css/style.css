@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(31, 46, 53, 0.80);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo{
+    width: 119px;
+    height: 56px;
+}
+.header{
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__inner{
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.header__inner, .menu__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__item:not(.menu__item:last-child){
+    margin-right: 50px;
+}
+
+.menu__linck{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.menu__linck::after{
+    content: "";
+    width: 13px;
+    height: 9px;
+    background: url('../img/icon/chevron_down.svg') center/cover no-repeat;
+}
+
+.header__btns button{
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    width: 20px;
+    height: 18.586px;
+
+}
+
+.header__btns{
+    display: flex;
+    gap: 0 24px;
+}
+
+.making{
+    padding: 51px 0 98px;
+}
+
+.making__inner{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.making__content{
+    max-width: 545px;
+    text-align: left;
+}
+
+.making__content-title{
+    color: #1F2E35;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 133.687%;
+    margin-bottom: 24px;
+}
+
+.making__content-title span{
+    color: #EE4248;
+}
+
+.making__content-text{
+    color: #30444E;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.making__content-linck{
+    padding: 12px 32px;
+    border-radius: 4px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+}
+
+.making__img{
+    width: 562.967px;
+    height: 381.61px;
+}
+
+
+
+.product{
+    padding: 90px 0;
+}
+.product__title{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1F2E35;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 133.687%;
+}
+
+.product__list,.making__list{
+    display: flex;
+}
+
+.product__card{
+    width: 363px;
+    display: inline-flex;
+    padding: 24px 20px 4px 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.product__card-linck{
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    width: 20px;
+    height: 18.586px;
+    background-color: #EE4248;
+}
+
+
+.samasara{
+    background-color: #F6F6F6;
+    padding-bottom: 46px;
+}
+
+
+.samasara__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.samasara__content{
+    max-width: 520px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.samasara__content span{
+    color: #EE4248;
+}
+
+.samasara__content-title{
+    max-width: 454px;
+    color: #1F2E35;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 133.687%;
+    margin-bottom: 24px;
+}
+
+.samasara__content-text{
+    margin-bottom: 24px;
+    color: #30444E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.samasara__content-text:last-child{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dwidasa__text{
+    color: #263238;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.dwidasaa__text{
+    color: #263238;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%; /* 26.854px */
+}
+h5{
+    color: #263238;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 50px 676px 0 365px ;
+    margin-top: -160px;
+}
+.dwid__text{
+    color: #263238;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%; /* 26.854px */
+    margin-left: 365px;
+}
+.red__inner{
+    width: 1440px;
+    height: 64px;
+    margin-top: 4px;
+    background-color: #EE4248;
+    min-width: 100%;
+}
+.red__text{
+    color: #ffffff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: -37px;
+}
